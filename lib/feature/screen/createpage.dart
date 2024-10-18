@@ -6,7 +6,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:interview_task/feature/screen/add_page.dart';
+import 'package:interview_task/feature/screen/addpage.dart';
 import 'package:interview_task/model/userModel.dart';
 
 import '../../core/provide/storage_repository_provide.dart';

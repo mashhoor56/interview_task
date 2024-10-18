@@ -2,11 +2,11 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:interview_task/feature/controller/add_controller.dart';
-import 'package:interview_task/feature/screen/edit_page.dart';
+import 'package:interview_task/feature/screen/editpage.dart';
 import 'package:interview_task/model/userModel.dart';
 
 import '../../main.dart';
-import 'create_page.dart';
+import 'createpage.dart';
 
 class Add_Page extends ConsumerStatefulWidget {
   const Add_Page({super.key});
@@ -32,7 +32,10 @@ class _Add_PageState extends ConsumerState<Add_Page> {
                     builder: (context) => Create_Page(),
                   ));
             },
-            child: Icon(Icons.add,size: w*0.07,),
+            child: Icon(
+              Icons.add,
+              size: w * 0.07,
+            ),
             backgroundColor: Colors.grey.shade400,
           ),
           appBar: AppBar(
